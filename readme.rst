@@ -1,0 +1,1 @@
+random notes pertaining to natural language processing
