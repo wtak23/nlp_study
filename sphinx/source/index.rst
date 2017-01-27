@@ -7,5 +7,6 @@ Skeleton for creating my doc.
    :numbered:
    :caption: Table of Contents
 
-   file1.rst
+   web-scraping-python.rst
+   nlp-scikit.rst
 

@@ -17,7 +17,7 @@ make html
 # "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 # "/cygdrive/c/Program Files (x86)/Google/Chrome/Application/chrome.exe" 
 
-# exit 0
+exit 0
 # --- browse result in chrome? --- #
 # BROWSE=false
 # if [[ ! BROWSE ]]; then exit 0; fi

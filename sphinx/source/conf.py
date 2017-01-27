@@ -72,8 +72,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Sphinx Skeleton'
-copyright = u'2016'
+project = u'NLP Notes'
+copyright = u'2017'
 author = u''
 
 # The version info for the project you're documenting, acts as replacement for
@@ -175,7 +175,7 @@ html_title = ''
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
-html_short_title = None
+html_short_title = ''
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -186,7 +186,7 @@ html_short_title = None
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #
-#html_favicon = '_static/favicon.ico'
+html_favicon = '_static/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -388,4 +388,7 @@ def setup(app):
 
 # http://www.sphinx-doc.org/en/stable/config.html#options-for-html-output
 html_secnumber_suffix = ' '
-html_add_permalinks = None # http://www.sphinx-doc.org/en/stable/config.html#confval-html_add_permalinks
+html_add_permalinks = 'unicode' # http://www.sphinx-doc.org/en/stable/config.html#confval-html_add_permalinks
+
+html_style='css/my_theme.css' # <- to get my css recognized http://stackoverflow.com/questions/23211695/modifying-sphinx-theme-read-the-docs    
+# html_style='css/rtd_theme_unminified.css' # <- to identify style-names I'd like to tweak
